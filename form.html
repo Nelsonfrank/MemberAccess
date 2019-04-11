@@ -17,7 +17,7 @@
                     <!-- <div class="alert alert-danger">
                         <a class="close font-weight-light" data-dismiss="alert" href="#">×</a>Password is too short.
                     </div> -->
-                    <fieldset>
+                    <form action="form.php" method="POST">
                         <div class="form-group has-error">
                             <input class="form-control input-lg" placeholder="Firstname" name="firstname" type="text">
                         </div>
@@ -42,7 +42,7 @@
                                 type="text">
                         </div>
                         <div class="form-group has-success">
-                            <input class="form-control input-lg" placeholder="Phone number" name="phoneNo" value=""
+                            <input class="form-control input-lg" placeholder="Phone number" name="phoneno" value=""
                                 type="text">
                         </div>
                         <div class="form-group has-success">
@@ -50,23 +50,23 @@
                                 type="text">
                         </div>
                         <div class="form-group has-success">
-                            <input class="form-control input-lg" placeholder="House Number" name="houseNo" value=""
+                            <input class="form-control input-lg" placeholder="House Number" name="houseno" value=""
                                 type="text">
                         </div>
-                        <div class="form-group has-success">
+                        <!-- <div class="form-group has-success">
                             <input class="form-control input-lg" placeholder="Password" name="password" value="" type="password">
                         </div>
                         <div class="form-group has-success">
                             <input class="form-control input-lg" placeholder="Confirm Password" name="password" value="" type="password">
-                        </div>
+                        </div> -->
                         <div class="checkbox">
                             <label class="small">
                                 <input name="terms" type="checkbox">I have read and agree to the <a href="#">terms of
                                     service</a>
                             </label>
                         </div>
-                      <a href="index.html"> <input class="btn btn-lg btn-primary btn-block" value="Sign Me Up" type="submit"></a> 
-                    </fieldset>
+                      <a href="index.html"> <input class="btn btn-lg btn-primary btn-block" value="Sign Me Up" type="submit" name="submit"></a> 
+                    </form>
                 </div>
             </div>
         </div>
