@@ -15,9 +15,9 @@
    - Go to `/etc/apache2/sites-available/default-ssl.conf` then change `/var/www/html` to you
    choose directory for easy access.
    - Go to /etc/apache2/apache2.conf then configure your directory to available in apache server.
-    - i.e change your root directory in apache configuration file 
+   - i.e change your root directory in apache configuration file 
     `<Directory /var/www/>` to your new root directory `<Directory /home/desktop/myrepo/>`
-    - Then in your browser, load localhost or 127.0.0.1 the apache will load the file from your new directory     
+   - Then in your browser, load localhost or 127.0.0.1 the apache will load the file from your new directory     
 2.Go to `/etc/php/7.x/conf.d/msqlini` then copy `extension=mysqli.so`
   - Then past or enable php-mysql extension (extension=mysqli.so) in /etc/php/7.x.x/php.ini
     then Restart Mysql server..
