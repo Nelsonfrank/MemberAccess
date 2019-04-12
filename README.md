@@ -30,6 +30,7 @@ Database and user interface
        
 
 
+
 Mysql Queries used in this project:
   Terminal:
    $ sudo -uroot -p  then enter your mysql password.
