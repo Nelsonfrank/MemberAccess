@@ -13,6 +13,7 @@
  $phoneno = $_POST['phoneno'];
  $occupation =$_POST['occupation'];
  $houseno = $_POST['houseno'];
+ $password =$_POST['password'];
 
 $conn=new mysqli("localhost","root","code1909->22","Company");
 
@@ -21,7 +22,7 @@ if($conn->connect_error){
 }
 
 
- $sql = "INSERT INTO Member (FirstName, MiddleName, LastName, Title, Gender, Email, PhoneNo, Occupation, HouseNo) VALUES  ('$firstname', '$middlename', '$lastname', '$title', '$gender', '$email', '$phoneno', '$occupation', '$houseno' )";
+ $sql = "INSERT INTO Member (FirstName, MiddleName, LastName, Title, Gender, Email, PhoneNo, Occupation, HouseNo, password) VALUES  ('$firstname', '$middlename', '$lastname', '$title', '$gender', '$email', '$phoneno', '$occupation', '$houseno', '$password' )";
 
 //  mysqli_query($conn,$sql);
 

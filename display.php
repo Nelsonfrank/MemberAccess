@@ -27,13 +27,18 @@
     
     <?php
 
-include 'connect_db';
+$conn=new mysqli("localhost","root","code1909->22","Company");
+
+  if($conn->connect_error){
+   echo "error" . $conn->connect_error;
+  }
+
 
 $sql = "select FirstName, LastName, Email from Member";
 $result = $conn->query($sql);
 while($row = $result->fetch_assoc()) {
     echo '<div class="container">
-          <div class="row border rounded-sm" style="height:50px; padding: 10px; margin-bottom: 5px;">
+          <div class="row border rounded-sm">
                 <div class="col-6">'.$row["FirstName"].'</div>
                 <div class="col-3">'.$row["Email"].'</div>
                 <div class="col-3">
