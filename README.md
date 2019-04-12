@@ -32,7 +32,7 @@
   1. Download XAMPP server then install it after that start XAMPP 
      - Start Apache and mysql server in XAMPP
   2. Open your Browser then search localhost or 127.0.0.1 then it will show up XAMPP page.
-     -At the right upper corner there it phpMyAdmin button click it. It will bring you to phpMyAdmin page Now you are    ready to go, from there yo can Create Database, tables And see your databese
+     - At the right upper corner there it phpMyAdmin button click it. It will bring you to phpMyAdmin page Now you are    ready to go, from there yo can Create Database, tables And see your databese
 
 ```Note:
  PhpMyAdmin is interface where you can see and access your databases.. 
