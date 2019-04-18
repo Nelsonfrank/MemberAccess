@@ -38,10 +38,10 @@ $sql = "select FirstName, LastName, Email from Member";
 $result = $conn->query($sql);
 while($row = $result->fetch_assoc()) {
     echo '<div class="container">
-          <div class="row border rounded-sm">
-                <div class="col-6">'.$row["FirstName"].'</div>
-                <div class="col-3">'.$row["Email"].'</div>
-                <div class="col-3">
+          <div class="row border rounded-sm " style="margin:5px; padding:5px;" >
+                <div class="col-6 col-md-4 col-sm-4">'.$row["FirstName"].'</div>
+                <div class="col-3 col-md-4 col-sm-4">'.$row["Email"].'</div>
+                <div class="col-3 col-md-4 col-sm-4">
                 <button type="submit" class="btn btn-success btn-sm float-right col-3 " style="margin-right:10px;" id="btnLogin">Update</button>
                 <button type="submit" class="btn btn-success btn-sm float-right col-3" style="margin-left: 4px;" id="btnLogin">Delete</button>
           </div> 
