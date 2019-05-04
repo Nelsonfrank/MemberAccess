@@ -44,10 +44,11 @@
 >$ sudo -uroot -p  then enter your mysql password.
  
 ## Queries:
- `create database Company;`
- `use Company;`
+>create database Company;
+>use Company;
     
-   ``` create table Member (
+   ``` 
+   create table Member (
           MemberID INT NOT NULL AUTO_INCREMENT,
           FirstName VARCHAR(100) NOT NULL,
           MiddleName VARCHAR(100) NOT NULL,
