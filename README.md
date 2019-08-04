@@ -23,7 +23,7 @@
     then Restart Mysql server..
     then your LAMP is already setup, yo can move data from UI to Database
    ```Tip:
-   In Mysql server use >SET PASSWORD FOR 'root'@'localhost' = PASSWORD('mypass'); 
+   In Mysql server use >SET PASSWORD FOR 'root'@'localhost' = PASSWORD('xxxxxxx'); 
    to change my root password.
    ```
 
